@@ -18,6 +18,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("./static/reset.css");
 body {
   text-align: center;
   margin: 0 auto 0 auto;

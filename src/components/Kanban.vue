@@ -5,6 +5,32 @@
         <h1 class="SignTitle">Kanban</h1>
       </div>
     </div>
+    <div class="Tasks">
+      <div class="Task">
+        <h2 class="Title">Title:SmapleText</h2>
+        <p class="Caption">
+          memo:This memo is Smaple. I want to fly very much. I like shark.
+        </p>
+      </div>
+      <div class="Task">
+        <h2 class="Title">Title:SmapleText</h2>
+        <p class="Caption">
+          memo:This memo is Smaple. I want to fly very much. I like shark.
+        </p>
+      </div>
+      <div class="Task">
+        <h2 class="Title">Title:SmapleText</h2>
+        <p class="Caption">
+          memo:This memo is Smaple. I want to fly very much. I like shark.
+        </p>
+      </div>
+      <div class="Task">
+        <h2 class="Title">Title:SmapleText</h2>
+        <p class="Caption">
+          memo:This memo is Smaple. I want to fly very much. I like shark.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 <style scoped>
@@ -43,6 +69,35 @@
   border-radius: 20px;
   margin: 0 70px 0 0;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.Tasks {
+  margin: -30px 40px 0 64px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Task {
+  background-color: white;
+  width: 96px;
+  height: 96px;
+  justify-content: left;
+  margin: 40px 24px 0 0;
+}
+h2.Title {
+  font-size: 10px;
+  text-align: left;
+  margin-left: 7px;
+  max-width: 84px;
+  margin: 0 0 0 7px;
+  padding-top: 12px;
+}
+p.Caption {
+  max-width: 84px;
+  font-size: 9px;
+  font-weight: 700;
+  margin: 0 0 0 7px;
+  padding-top: 9px;
+  text-align: left;
+  line-height: 11px;
 }
 </style>
 <script>
