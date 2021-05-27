@@ -9,7 +9,7 @@
 header {
   background-color: #6ca7ff;
   height: 74px;
-  box-shadow: 0 4px 4px  rgba(0,0,0,0.25);
+  box-shadow: 0 4px 4px  rgba(50, 50, 50, 0.25);
 }
 .HeaderBox {
   position: absolute;

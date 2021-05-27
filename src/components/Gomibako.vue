@@ -67,7 +67,7 @@
   min-height: 500px;
   background-color: #cdcbc3;
   border-radius: 20px;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.25);
 }
 .Tasks {
   margin: -30px 40px 0 64px;
