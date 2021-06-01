@@ -1,5 +1,7 @@
-this is todoapp client side.
+this code is todoapp client side.
+
 server side code is here : https://github.com/Kissa0330/todo-server
+
 
 # todoapp
 
